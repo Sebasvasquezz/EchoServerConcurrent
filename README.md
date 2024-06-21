@@ -35,13 +35,13 @@ mvn test
 ```
 The execution:
 
-![Execution of unit tests](image-1.png)
+![Execution of unit tests](images/image-1.png)
 
 ## Design
 
 ### Class Diagram
 The class diagram was made by using Astah. To go deeper into it, check out the Concurrent-Server.asta file.
-![Class Diagram](image.png)
+![Class Diagram](images/image.png)
 * **EchoServerConcurrent:**
 
     * **Attributes:**
@@ -87,8 +87,11 @@ The class diagram was made by using Astah. To go deeper into it, check out the C
     ```
 * And the execution:
     * Terminal:
-    ![Terminal](image-3.png)
+
+        ![Terminal](images/image-3.png)
     * Browser:
+
+        ![Browser](images/image-4.png)
 
     
 ### Phase architecture
@@ -101,7 +104,7 @@ The class diagram was made by using Astah. To go deeper into it, check out the C
           <artifactId>exec-maven-plugin</artifactId>
           <version>3.0.0</version>
           <configuration>
-              <mainClass>edu.escuelaing.arsw.ASE.app.CountLines</mainClass>
+              <mainClass>edu.escuelaing.arsw.ASE.app.EchoServerConcurrent</mainClass>
           </configuration> 
     </plugins>
   </build>
